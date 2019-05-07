@@ -1,4 +1,11 @@
-
+import * as WebFont from "webfontloader";
 import {GameApp} from "./app/app";
 
-const myGame = new GameApp(document.body,  window.innerWidth, window.innerHeight);
+WebFont.load({
+	custom: {
+		families: [ "Arcade" ],
+	},
+	active: () => {
+    const myGame = new GameApp(document.body,  window.innerWidth, window.innerHeight);
+	},
+});
