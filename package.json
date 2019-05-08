@@ -2,25 +2,22 @@
   "name": "retroai",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "parcel src/index.html"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@types/webfontloader": "^1.6.29",
     "parcel-bundler": "^1.12.3",
-    "pixi.js": "4.8.4",
+    "pixi.js": "5.0.2",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
-    "@types/jasmine": "3.3.0",
     "@types/node": "^12.0.0",
     "@types/pixi.js": "4.8.6",
     "babel-preset-es2015": "^6.24.1",
     "http-server": "0.11.1",
-    "rimraf": "^2.6.2",
     "ts-loader": "^5.4.5",
     "tslint": "^5.16.0",
     "tslint-loader": "^3.5.4",
